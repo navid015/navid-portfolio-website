@@ -67,7 +67,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section ref={ref}>
+    <section ref={ref} id="projects">
       <h2 className="text-4xl text-center w-full font-bold text-white rounded-xl bg-gradient-to-br from-[#cb35cb] inline-block p-1 mb-6">
         My Projects
       </h2>

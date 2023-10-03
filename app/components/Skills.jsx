@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Skills = () => {
   return (
-    <section className="mt-12 mb-20 py-16">
+    <section className="mt-12 mb-20 py-16" id="skills">
       <div className="text-center mb-8">
         <h2 className="text-4xl w-full font-bold text-white rounded-xl bg-gradient-to-br from-[#cb35cb] inline-block p-1 mb-6">
           Tools I know...
