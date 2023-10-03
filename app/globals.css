@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -25,3 +26,85 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* styles.css */
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateX(-10px); /* Adjust the distance of the floating movement */
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite; /* Adjust the animation duration as needed */
+}
+
+
+/* styles.css */
+@keyframes glowing {
+  0% {
+    background-image: linear-gradient(45deg, #3b82f6, #9333ea, pink);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 10px rgba(173, 216, 230, 0.5); /* Light blue shadow color */
+  }
+  50% {
+    background-image: linear-gradient(45deg, #3b82f6, #9333ea, pink);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 20px rgba(173, 216, 230, 0.8), /* Light blue shadow color */
+                 0 0 30px rgba(173, 216, 230, 0.8); /* Light blue shadow color */
+  }
+  100% {
+    background-image: linear-gradient(60deg, #3b82f6, #9333ea, pink);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 10px rgba(173, 216, 230, 0.5); /* Light blue shadow color */
+  }
+}
+
+.glowing-link {
+  animation: glowing 3s linear infinite;
+  background-image: linear-gradient(45deg, #3b82f6, #9333ea, rgb(93, 19, 31));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-bounce-delay-1 {
+  animation: bounce 1s infinite ease-in-out 0.5s;
+}
+
+.animate-bounce-delay-2 {
+  animation: bounce 1s infinite ease-in-out 1s;
+}
+
+
+
+.icon-white {
+  filter: brightness(0) invert(1); /* Change icon color to white */
+}
+
+
+
+
+
+
+
+
+
