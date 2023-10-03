@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "experience",
     content: (
       <ul className="list-disc pl-2">
-        <li>Full Stack Developer - Algorizin Inc. (Aug'23 to Present)</li>
+        <li>Full Stack Developer - Algorizin Inc. (Aug&apos;23 to Present)</li>
         <div className="mt-2">
             <p>-Engineered production-ready web application using a technology stack that includes JavaScript, TypeScript, Tailwind CSS, React, and React Hooks.</p>
         </div>
         <br></br>
-        <li>Graduate Research Assistant - University of Louisiana at Lafayette (Aug'19 to May'23)</li>        
+        <li>Graduate Research Assistant - University of Louisiana at Lafayette (Aug&apos;19 to May&apos;23)</li>        
       </ul>
     ),
   },
@@ -24,10 +24,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Master of Science in Informatics - University of Louisiana at Lafayette </li>
-        <p>- CGPA: 4.00 (Spring'23)</p>
+        <p>- CGPA: 4.00 (Spring&apos;23)</p>
         <br></br>
         <li>Master of Science in Petreoleum Engineering - University of Louisiana at Lafayette</li>
-        <p>- CGPA: 3.92 (Spring'21)</p>
+        <p>- CGPA: 3.92 (Spring&apos;21)</p>
         
       </ul>
     ),

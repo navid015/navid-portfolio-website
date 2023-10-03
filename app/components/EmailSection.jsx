@@ -151,7 +151,7 @@ const EmailSection = () => {
             emailSubmitted && (
 
                 <p className="text-green-300 text-lg mt-4">
-                    Thank you for contacting me. I'll get back to you as soon as possible.
+                    Thank you for contacting me. I&apos;ll get back to you as soon as possible.
                 </p>
             )
           }
