@@ -1,6 +1,7 @@
 import React from 'react';
 import '../globals.css';
 import Image from 'next/image';
+import html_logo from "../../public/images/html.svg";
 
 const Skills = () => {
   return (
@@ -14,19 +15,20 @@ const Skills = () => {
         {/* JavaScript */}
         <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 flex items-center justify-center animate-bounce-delay-1"> {/* Updated */}
           <Image
-            src="/images/javascript-js.svg"
+            src='/images/javascript-js.svg'
             alt="JavaScript icon"
             width={140}
             height={140}
-            style={{ transition: 'transform 0.3s ease' }}
+            style={{ transition: 'transform 0.3s ease' }} 
             className="hover:scale-125"
+            //placeholder='blur'
           />
         </div>
 
         {/* HTML */}
         <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 flex items-center justify-center animate-bounce-delay-2"> {/* Updated */}
           <Image
-            src="/images/html.svg"
+            src={html_logo}
             alt="HTML icon"
             width={150}
             height={150}
