@@ -39,7 +39,7 @@ const HeroSection = ({ scrollToEmailSection }) => {
             sequence={[
               'Navid',
               100,
-              'A Full Stack Developer',
+              'A Front-End Developer',
               100
             ]}
             className='text-[#66def9]'
