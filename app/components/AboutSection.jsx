@@ -10,10 +10,20 @@ const TAB_DATA = [
     id: "experience",
     content: (
       <ul className="list-disc pl-2">
-        <li>Full Stack Developer - Algorizin Inc. (Aug&apos;23 to Present)</li>
+        <li>Software Developer - Algorizin Inc. (Aug&apos;23 to Present)</li>
         <div className="mt-2">
-            <p>-Engineered production-ready web application using a technology stack that includes JavaScript, TypeScript, Tailwind CSS, React, and React Hooks.</p>
+            <p>- UX Design: Boosted the user experience overhaul of Algorizin&apos;s landing page, utilizing responsive design techniques to yield a 20% increase in user engagement.</p>
+            <p>- Agile Project Management: Engineered project management with an agile Kanban-style dashboard in ClickUp that pioneered a two-way sync function, ensuring real-time data accuracy and fostering user confidence in instant information updates, leading to an increase in team productivity.
+            </p>
+            <p>- Achieved a cost-saving initiative resulting in a $150,000 reduction in annual expenditures through the successful transition to an internally developed platform.
+            </p>
+            <p>- Dockerizing the application: Implemented Dockerization for the Algorizin full-stack application using Docker Compose, enhancing portability and scalability, resulting in a reduction in deployment time and improved resource utilization.
+            </p>
+            <p>- Optimized Workflow: Established the CI/CD pipeline of Algorizin&apos;s full-stack application using GitHub Actions, achieving a reduction in deployment times through automated linting, building, testing, and enhanced processes for pull requests.</p>
         </div>
+
+
+
         <br></br>
         <li>Graduate Research Assistant - University of Louisiana at Lafayette (Aug&apos;19 to May&apos;23)</li>        
       </ul>
