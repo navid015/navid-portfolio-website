@@ -56,7 +56,7 @@ const NavBar = () => {
                             <NavLink href={link.path} title={link.title} />
                         </li>
                     ))
-                    };
+                    }
                 </ul>
               </div> 
           </div>
@@ -65,4 +65,4 @@ const NavBar = () => {
     )
   }
   
-  export default NavBar;
+  export default NavBar

@@ -6,8 +6,6 @@ import { motion, useInView } from "framer-motion";
 
 
 
-
-
 const projectsData = [
   {
     id: 1,

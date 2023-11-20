@@ -25,7 +25,12 @@ const TAB_DATA = [
 
 
         <br></br>
-        <li>Graduate Research Assistant - University of Louisiana at Lafayette (Aug&apos;19 to May&apos;23)</li>        
+        <li>Graduate Research Assistant - University of Louisiana at Lafayette (Aug&apos;19 to May&apos;23)</li>
+        <div className="mt-2">
+            <p>- Collaborated with a diverse team to enhance university printing station tech support, resulting in a 20% reduction in reported issues and ensuring uninterrupted operations for 10,000+ users.</p>
+            <p>- Played a key role in the Waste Management Team, achieving an 8% waste reduction.</p>
+            <p>- Achieved $20,000 in cost savings through the optimization of resource management, implementation of eco-friendly printing practices, and promotion of sustainability.</p>
+        </div>        
       </ul>
     ),
   },
@@ -69,11 +74,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="p-1 text-4xl text-center font-bold text-white mb-4 rounded-xl bg-gradient-to-br from-[#cb35cb]">About Me</h2>
           <p className="text-white texxt-base md:text-lg">
-                I am Navid Yousuf, a dedicated full-stack web developer driven by a fervent enthusiasm for crafting engaging and adaptable web applications. My journey in web development has equipped me with a diverse skill set, encompassing JavaScript, TypeScript, React, Next.js. Node.js, Express,  HTML, CSS, Tailwind CSS, and Git. My insatiable appetite for learning fuels my growth in this ever-evolving field, pushing me to continually expand my knowledge and abilities.
+          I am Navid Yousuf, an accomplished software developer with a passion for creating dynamic and user-centric software applications. My journey in software development has equipped me with a robust skill set, including proficiency in JavaScript, TypeScript, React, Next.js, Node.js, HTML, CSS, Tailwind CSS, and Git. My relentless pursuit of knowledge drives my continuous growth in this ever-evolving field.
           </p>
           <br></br>
           <p className="text-white texxt-base md:text-lg">
-          Collaboration is at the heart of my approach, and I thrive in team settings, where diverse talents converge to conceive exceptional applications. I take pride in my adaptability, quick problem-solving skills, and commitment to delivering top-notch user experiences. Together with my passion for coding, I am eager to contribute to the creation of remarkable digital solutions.
+          Collaboration is the cornerstone of my approach, and I thrive in team environments where diverse talents converge to conceive exceptional applications. I take pride in my adaptability, quick problem-solving skills, and commitment to delivering top-notch user experiences. My extensive skills include JavaScript, React, TypeScript, Next.js, Node.js, PostgreSQL, TailwindCSS, Docker, CI/CD, Figma, and Git.
           </p>
           <div className="flex flex-row text-xl font-extrabold justify-start mt-8">
             <TabButton
