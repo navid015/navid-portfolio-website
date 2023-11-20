@@ -59,23 +59,25 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
+        <div className="z-10">
         <div className="socials flex flex-row gap-4 icon-white">
-          <Link href="github.com">
+          <a href='https://github.com/navid015?tab=overview&from=2023-10-01&to=2023-10-31' target="_blank" rel="noopener noreferrer">
             <Image 
-                src="/images/github.svg"
-                alt="Github Icon" 
-                width={30}
-                height={30}
+              src="/images/github.svg"
+              alt="Github Icon" 
+              width={30}
+              height={30}
             />
-          </Link>
-          <Link href="linkedin.com">
+          </a>
+          <a href='https://www.linkedin.com/in/navid-yousuf-2455756a/' target="_blank" rel="noopener noreferrer">
             <Image src="/images/linkedin.svg"
-            alt="Linkedin Icon" 
-            width={30}
-            height={30}
+              alt="Linkedin Icon" 
+              width={30}
+              height={30}
             />
-          </Link>
+          </a>
         </div>
+      </div>
       </div>
       <div className="z-10">
         <form className="flex flex-col" onSubmit={handleSubmit}> 
