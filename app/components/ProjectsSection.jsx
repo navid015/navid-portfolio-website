@@ -13,8 +13,8 @@ const projectsData = [
     description: "Project 1 description",
     image: "/images/project1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/navid015/navid-portfolio-website",
+
   },
   {
     id: 2,
@@ -22,8 +22,8 @@ const projectsData = [
     description: "Project 2 description",
     image: "/images/project2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/navid015/6.-Black-Jack-Game",
+
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const projectsData = [
     image: "/images/project3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const projectsData = [
     image: "/images/project4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
-    previewUrl: "/",
+
   },
 
 ];
